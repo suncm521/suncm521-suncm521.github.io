@@ -14,6 +14,7 @@ import * as clientConfig12 from 'E:/myblog/suncm521.github.io/docs/.vuepress/.te
 import * as clientConfig13 from 'E:/myblog/suncm521.github.io/node_modules/@vuepress/plugin-photo-swipe/lib/client/config.js'
 import * as clientConfig14 from 'E:/myblog/suncm521.github.io/node_modules/@vuepress/plugin-redirect/lib/client/config.js'
 import * as clientConfig15 from 'E:/myblog/suncm521.github.io/docs/.vuepress/.temp/theme-hope/config.js'
+import * as clientConfig16 from 'E:/myblog/suncm521.github.io/node_modules/vuepress-plugin-search-pro/lib/client/config.js'
 
 export const clientConfigs = [
   clientConfig0,
@@ -32,4 +33,5 @@ export const clientConfigs = [
   clientConfig13,
   clientConfig14,
   clientConfig15,
+  clientConfig16,
 ].map((m) => m.default).filter(Boolean)
